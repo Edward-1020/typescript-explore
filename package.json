@@ -1,0 +1,23 @@
+{
+  "name": "typescript-explore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edward-1020/typescript-explore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edward-1020/typescript-explore/issues"
+  },
+  "homepage": "https://github.com/Edward-1020/typescript-explore#readme",
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
