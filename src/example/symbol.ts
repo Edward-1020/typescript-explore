@@ -47,3 +47,5 @@
 // }
 
 // console.log({a: 'a'} instanceof <any>obj);
+
+// Symbol.species
