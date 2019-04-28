@@ -49,3 +49,41 @@
 // console.log({a: 'a'} instanceof <any>obj);
 
 // Symbol.species
+
+// let obj = {
+//     [Symbol.match] (string: any) {
+//         console.log(string.length)
+//     }
+// }
+
+// 'abcde'.match(<RegExp>obj)
+
+//  Symbol.replace
+//  Symbol.search
+//  Symbol.split
+
+// let obj = {
+//     [Symbol.split] (string: any) {
+//         console.log('split', string.length)
+//         return 1
+//     }
+// }
+
+// console.log('aaaccc'.split(<any>obj));
+
+// const arr = [1, 2, 3];
+// const iterator = arr[Symbol.iterator]();
+// console.log(iterator.next());
+
+// Symbol.toPrimitive
+
+// let obj: unknown = {
+//     [Symbol.toPrimitive] (type: any) {
+//         console.log(type)
+//     }
+// }
+// const res = (<number>obj)++;
+
+//  Symbol.toStringTag
+//  with无法获取的属性值
+//  Symbol.unscopables
