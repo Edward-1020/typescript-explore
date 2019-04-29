@@ -1,1 +1,1 @@
-import './example/symbol';
+import './example/interface';
