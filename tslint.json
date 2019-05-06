@@ -5,7 +5,9 @@
     ],
     "jsRules": {},
     "rules": {
-        "quotemark": false
+        "quotemark": false,
+        "max-classes-per-file": false,
+        "no-console": false
     },
     "rulesDirectory": []
 }

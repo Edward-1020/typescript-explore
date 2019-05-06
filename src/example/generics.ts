@@ -34,4 +34,4 @@ const objs = {
     b: 'b',
 };
 getProps(objs, 'a');
-getProps(objs, 'c');
+// getProps(objs, 'c');
