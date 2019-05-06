@@ -36,3 +36,35 @@ class Animal {
 }
 
 const p3 = new Animal('haha');
+
+interface FoodInterface {
+    type: string,
+    name: string
+}
+
+class FoodClass implements FoodInterface {
+    public type: string = '';
+    public name: string = '';
+}
+
+class A {
+    protected name: string = '';
+}
+
+interface I extends A {};
+
+// class B implements I {
+//     public name: string = '';
+// };
+class B extends A implements I {
+    public name: string = '';
+};
+//  传入了类，返回了类创建的实例
+//  new() 表示调用了类的构造函数
+const create = <T>(c: new() => T): T => {
+    return new c();
+}
+class Infos {
+    public age: number = 0;
+}
+create<Infos>(Infos);
