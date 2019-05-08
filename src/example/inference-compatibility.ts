@@ -92,4 +92,34 @@ class FoodClass1 {
 let animal: AnimalClass;
 let people1: PeopleClass;
 let food: FoodClass1;
-animal = people1;
+// animal = people1;
+
+class ParentClass {
+    private age: number = 0;
+    constructor() {
+        console.log(1);
+    }
+}
+
+class ChildrenClass extends ParentClass {
+    constructor() {
+        super();
+    }
+}
+
+class OtherClass {
+    private age: number = 0;
+    constructor() {
+        console.log(2);
+    }
+}
+
+const children: ParentClass = new ChildrenClass();
+
+// const other: ParentClass = new OtherClass();
+
+interface IData<T> {
+    a: T;
+}
+let data1: IData<number>;
+let data2: IData<string>;
