@@ -1,4 +1,2 @@
-import './add-methods-to-string.js';
-
-const name = 'lison';
-name.getFirstLetter();
+import indexof = require('indexof');
+indexof([1, 2], 2);
